@@ -38,17 +38,3 @@ myButton.addEventListener("click", (e) => {
   e.preventDefault;
   genEmail();
 });
-// constanti per axios
-// let data;
-// const randomaizeMail =
-//   "https://flynn.boolean.careers/exercises/api/random/mail";
-// ciclo con axios per le 10 email
-
-// axios.get(randomaizeMail).then((response) => {
-//   data = response;
-//   const emailRandom = data.data.response;
-//   console.log(data.data.response);
-
-//   emailList.innerHTML = `<li>${emailRandom}</li>
-// `;
-// });
